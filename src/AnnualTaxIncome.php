@@ -4,8 +4,8 @@ namespace TestTdd;
 
 class AnnualTaxIncome
 {
-    Private $level = array(50000000, 250000000, 500000000);
-    Private $percentTax = array(5, 15, 25, 30);
+    private $level = array(50000000, 250000000, 500000000);
+    private $percentTax = array(5, 15, 25, 30);
 
     public function calculateTax($income)
     {
